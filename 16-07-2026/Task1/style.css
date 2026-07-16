@@ -1,0 +1,32 @@
+table, th, td {
+  border: 3px solid black;
+}
+.bas{
+    text-align: center;
+    color: rgb(23, 4, 92);
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.rad{
+    text-align: center;
+    color: black;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+.chk{
+    text-align: center;
+    color: blueviolet;;
+    border-style:solid;
+    border-color: rgb(39, 243, 32);
+    border-radius: 10px;
+}
+
+body{
+    background-image: url("back.jpg");
+    background-position: center center;
+    background-size: cover;
+}
