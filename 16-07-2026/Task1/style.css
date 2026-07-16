@@ -1,6 +1,4 @@
-table, th, td {
-  border: 3px solid black;
-}
+
 .abts{
     text-align: center;
     font-style: oblique;
@@ -17,29 +15,22 @@ table, th, td {
     list-style-type: circle;
     list-style-position: inside; 
     padding: 0;
-}
-.bas{
-    text-align: center;
-    color: rgb(23, 4, 92);
-    border-style:solid;
-    border-color: black;
-    border-radius: 10px;
-}
-
-.rad{
-    text-align: center;
-    color: black;
     border-style:solid;
     border-radius: 10px;
-    border-color: blueviolet;
+    padding: 10px;
+    background: rgba(255,255,255,0.1); 
+}
+.applyjob{
+    border-style:solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    background: rgba(255,255,255,0.1); 
 }
 
-.chk{
-    text-align: center;
-    color: blueviolet;;
-    border-style:solid;
-    border-color: rgb(39, 243, 32);
-    border-radius: 10px;
+.applyjob label{
+    display: inline-block;
+    margin: 8px 0;
 }
 
 body{
@@ -53,5 +44,18 @@ header{
     border-color: black;
     border-radius: 10px;
     background: rgba(255,255,255,0.1); 
+    position: sticky;
     
+}
+
+.tab table{
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+}
+
+.tab td{
+    border-style: solid;
+    padding: 12px;
+    text-align: center;
 }
