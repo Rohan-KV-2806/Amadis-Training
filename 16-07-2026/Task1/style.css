@@ -1,6 +1,23 @@
 table, th, td {
   border: 3px solid black;
 }
+.abts{
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+}
+.abts p{
+    border-style:solid;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1); 
+}
+
+.abts ul{
+    list-style-type: circle;
+    list-style-position: inside; 
+    padding: 0;
+}
 .bas{
     text-align: center;
     color: rgb(23, 4, 92);
@@ -28,5 +45,13 @@ table, th, td {
 body{
     background-image: url("back.jpg");
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
+}
+
+header{
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.1); 
+    
 }
