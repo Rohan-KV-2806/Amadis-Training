@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amadis Training</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <form action="">
+        <H2>Enter Your Details</H2>
+        <div>
+            <label for="name"> Enter Your Name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="name"> Enter Your Age:</label>
+            <input type="text" name="age" id="age">
+        </div>
+        <div>
+            <label for="date">Select your date of birth</label>
+            <input type="date" name="date" id="">
+        </div>
+        <div>
+            <p>Select your gender from below </p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br>
+
+        </div>
+        <div>
+            <label for="exp">Enter your experience in years:</label>
+            <input type="number" name="exp" id="exp">
+        </div>
+        <div>
+            
+            <p>Choose your designation</p>
+            <input type="checkbox" name="software_dev" id="software_dev" value="Software Developer">
+            <label for="software_dev">Software Developer</label><br>
+            <input type="checkbox" name="Dev_Ops" id="Dev_Ops" value="DevOps">
+            <label for="software_dev">DevOps</label><br>
+        </div>
+    </form>
+
+    <h2>Salary and Experience Requirements</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Experience (Years)</th>
+                <th>Designation</th>
+                <th>Salary Range (USD)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0-2</td>
+                <td>Junior Developer</td>
+                <td>$50,000 - $70,000</td>
+            </tr>
+            <tr>
+                <td>2-5</td>
+                <td>DevOPs</td>
+                <td>$70,000 - $95,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <input type="submit" value="Apply">
+    </div>
+</body>
+</html>
