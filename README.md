@@ -1,4 +1,4 @@
-# AMADIS Training 2026
+# AMADIS Training 2026 - Week 1
 
 ## Schedule
 
